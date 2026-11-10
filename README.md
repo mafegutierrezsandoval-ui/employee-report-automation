@@ -1,32 +1,35 @@
-# Employee Report Automation
+# Employee Report Automation 📊
 
-Aplicación de consola en Python para procesar un CSV de empleados y generar un resumen de salarios y un CSV normalizado.
+Aplicación web en **Python + Streamlit** para cargar un CSV de empleados, analizar salarios, filtrar por cargo, visualizar gráficos y descargar reportes. También conserva una versión de consola.
 
-## Requisitos
+## Ejecutar la aplicación web
 
-Python 3.10 o superior. No requiere dependencias externas.
+Requiere Python 3.10 o superior. Abre una terminal en la carpeta del proyecto:
 
-## Ejecución
+```powershell
+python -m pip install -r requirements.txt
+python -m streamlit run app.py
+```
 
-Desde la carpeta del proyecto:
+Se abrirá la aplicación en el navegador (normalmente en `http://localhost:8501`).
 
-```bash
+## Uso
+
+1. Explora los cinco empleados ficticios que vienen en `data/empleados.csv`.
+2. Opcionalmente, sube tu propio CSV con las columnas `nombre,cargo,salario`.
+3. Consulta métricas, filtra empleados por cargo y revisa los gráficos.
+4. Descarga un resumen TXT y un CSV procesado.
+
+El salario debe ser un entero no negativo, sin separadores de miles. Usa datos ficticios o autorizados; evita subir datos personales reales a servicios públicos.
+
+## Versión de consola
+
+```powershell
 python main.py
 ```
 
-## Entrada
+Genera `reportes/resumen.txt` y `reportes/empleados_procesados.csv` a partir del archivo de ejemplo.
 
-Edita `data/empleados.csv` con las columnas `nombre,cargo,salario`. El salario debe ser un entero no negativo, sin separadores de miles.
+## Tecnologías
 
-## Salidas
-
-Se generan `reportes/resumen.txt` y `reportes/empleados_procesados.csv`.
-
-## Funcionalidades
-
-- Lectura y validación de CSV
-- Total de empleados, salario promedio, máximo y mínimo
-- Conteo de empleados por cargo
-- Exportación de resultados y manejo de errores
-
-Los datos de ejemplo son ficticios.
+Python, Streamlit, Pandas, CSV, Git y GitHub.

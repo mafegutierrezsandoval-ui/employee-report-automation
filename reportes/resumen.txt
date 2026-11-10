@@ -1,5 +1,5 @@
 REPORTE DE EMPLEADOS
-Generado: 2026-11-09 21:53
+Generado: 2026-11-10 02:52
 Total de empleados: 5
 Salario promedio: $2,960,000
 Salario máximo: Laura - $3,500,000
