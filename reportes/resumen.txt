@@ -1,0 +1,12 @@
+REPORTE DE EMPLEADOS
+Generado: 2026-11-09 21:53
+Total de empleados: 5
+Salario promedio: $2,960,000
+Salario máximo: Laura - $3,500,000
+Salario mínimo: Carlos - $2,500,000
+
+EMPLEADOS POR CARGO
+Analista: 1
+Desarrollador: 2
+Diseñadora: 1
+Profesor: 1
